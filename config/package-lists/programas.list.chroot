@@ -35,3 +35,10 @@ libavcodec-extra
 vlc
 unrar
 pipx
+gparted
+isoimagewriter
+grub-efi-amd64
+grub-pc
+shim-signed
+mokutil
+os-prober

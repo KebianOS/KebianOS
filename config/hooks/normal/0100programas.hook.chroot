@@ -6,6 +6,6 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/onlyoffice.gpg] https://down
 dpkg --add-architecture i386
 apt-get update
 apt-get install -y onlyoffice-desktopeditors
-#apt purge -y korganizer pim-sieve-editor kaddressbook kmail libktnef-data libreoffice-common konqueror akregator
+apt purge -y korganizer pim-sieve-editor kaddressbook kmail libktnef-data libreoffice-common konqueror akregator
 flatpak install -y flathub com.github.tchx84.Flatseal
-
+systemctl mask tmp.mount
