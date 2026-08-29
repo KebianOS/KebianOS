@@ -1,0 +1,89 @@
+kde-plasma-desktop          # Metapaquete principal del escritorio
+plasma-desktop              # Shell y widgets del escritorio
+plasma-workspace            # Base de Plasma
+sddm                        # Gestor de inicio de sesión
+kde-config-sddm             # Configuración de SDDM en System Settings
+breeze                      # Tema por defecto
+breeze-gtk-theme            # Tema Breeze para apps GTK
+breeze-icon-theme           # Iconos Breeze
+polkit-kde-agent-1          # Diálogos de permisos de KDE
+dolphin                     # Gestor de archivos (imprescindible)
+konsole                     # Terminal
+kate                        # Editor de texto potente
+kwrite                      # Editor de texto simple
+kdialog                     # Utilidad de diálogos
+keditbookmarks              # Editor de favoritos
+kfind                       # Buscador de archivos
+# konqueror               ❌  # Navegador de archivos/web (tú no lo quieres)
+# --- Utilidades ---
+ark                         # Gestor de archivos comprimidos
+kcalc                       # Calculadora
+kwalletmanager              # Gestor de contraseñas
+sweeper                     # Limpiador de temporales e historial
+khelpcenter                 # Centro de ayuda
+kcharselect                 # Selector de caracteres especiales
+kinfocenter                 # Información del sistema
+systemsettings              # Configuración del sistema
+plasma-systemmonitor        # Monitor del sistema
+
+# --- Multimedia / Gráficos ---
+gwenview                    # Visor de imágenes
+spectacle                   # Capturas de pantalla (antes kde-spectacle)
+okular                      # Visor de documentos PDF/ebook
+dragonplayer                # Reproductor de vídeo simple
+juk                         # Reproductor de música
+
+# --- PIM (Correo / Contactos / Agenda) ---
+# kmail                    ❌
+# kaddressbook             ❌
+# korganizer               ❌
+# akregator                ❌
+# knotes                   # Notas adhesivas (opcional, no es tan molesto)
+plasma-pa                   # Control de volumen (recomendado)
+plasma-nm                   # Gestión de red
+plasma-widgets-addons       # Widgets extras
+plasma-runners-addons       # Runners extras para KRunner
+plasma-wallpapers-addons    # Fondos de pantalla extras
+plasma-dataengines-addons   # Data engines extras
+print-manager               # Gestión de impresoras
+bluedevil                   # Bluetooth
+powerdevil                  # Gestión de energía
+kscreen                     # Gestión de pantallas
+kmenuedit                   # Editor del menú de aplicaciones
+kde-cli-tools               # Herramientas de línea de comandos de KDE
+xdg-desktop-portal-kde      # Portal XDG (necesario para Flatpak, etc.)
+plasma-browser-integration  # Integración con navegadores
+1. Bibliotecas y frameworks (cientos)
+Son dependencias técnicas que se instalan automáticamente:
+
+Todas las libkf6-*
+Todas las libplasma*
+Paquetes Qt6 (libqt6*)
+kio, kio-extras, solid, phonon4qt6, etc.
+
+Estas no las eliges, se instalan solas cuando pones las apps.
+2. Algunos paquetes menores / menos conocidos
+Ejemplos:
+
+kwrite (a veces viene separado)
+kcron / kde-config-cron
+kgamma / kgamma5
+ksshaskpass
+kwrited
+plasma-thunderbolt
+plasma-vault
+plasma-disks
+plasma-firewall
+plasma-welcome
+kde-inotify-survey
+baloo + baloo-widgets (indexador de archivos)
+kactivitymanagerd
+etc.
+
+3. Recomendados de task-kde-desktop (no de kde-standard)
+
+firefox-esr
+gimp
+orca
+hunspell-*, hyphen-*, mythes-*
+libreoffice-* (ya los excluimos)

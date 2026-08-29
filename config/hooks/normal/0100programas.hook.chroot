@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+curl -fsSL https://download.onlyoffice.com/GPG-KEY-ONLYOFFICE | gpg --dearmor -o /usr/share/keyrings/onlyoffice.gpg
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/onlyoffice.gpg] https://download.onlyoffice.com/repo/debian squeeze main" > /etc/apt/sources.list.d/onlyoffice.list
+dpkg --add-architecture i386
+apt-get update
+apt-get install -y onlyoffice-desktopeditors
+#apt purge -y korganizer pim-sieve-editor kaddressbook kmail libktnef-data libreoffice-common konqueror akregator
+flatpak install -y flathub com.github.tchx84.Flatseal
+
