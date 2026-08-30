@@ -1,0 +1,17 @@
+---
+componentName:  kebianos
+
+strings:
+    productName:         KebianOS
+    shortProductName:    KebianOS
+    version:             1.0 Beta
+    shortVersion:        1.0 Beta
+    versionedName:       KebianOS 1.0 Beta
+    shortVersionedName:  KebianOS 1.0 Beta
+    bootloaderEntryName: KebianOS
+
+images:
+    productLogo:         "logo.png"
+    productIcon:         "logo.png"
+
+slideshowAPI:            2

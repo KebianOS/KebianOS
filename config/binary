@@ -71,16 +71,16 @@ LB_HDD_SIZE="auto"
 LB_HDD_PARTITION_START=""
 
 # Set iso author
-LB_ISO_APPLICATION="Debian Live"
+LB_ISO_APPLICATION="KebianOS"
 
 # Set iso preparer
-LB_ISO_PREPARER="live-build @LB_VERSION@; https://salsa.debian.org/live-team/live-build"
+LB_ISO_PREPARER="KebianOS"
 
 # Set iso publisher
-LB_ISO_PUBLISHER="Debian Live project; https://wiki.debian.org/DebianLive; debian-live@lists.debian.org"
+LB_ISO_PUBLISHER="KebianOS Team"
 
 # Set iso volume (max 32 chars)
-LB_ISO_VOLUME="Debian trixie @ISOVOLUME_TS@"
+LB_ISO_VOLUME="KebianOS 1.0 Beta"
 
 # Set jffs2 eraseblock size
 LB_JFFS2_ERASEBLOCK=""

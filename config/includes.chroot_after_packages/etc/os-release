@@ -1,0 +1,6 @@
+PRETTY_NAME="KebianOS 1.0 Beta"
+NAME="KebianOS"
+VERSION_ID="1.0 Beta"
+VERSION="1.0 Beta"
+ID=kebianos
+ID_LIKE=debian
