@@ -6,4 +6,4 @@ apt-get update
 flatpak install -y flathub com.github.tchx84.Flatseal
 systemctl mask tmp.mount
 systemctl enable fstrim.timer 
-apt remove konqueror -y
+apt remove konqueror firefox-esr -y
