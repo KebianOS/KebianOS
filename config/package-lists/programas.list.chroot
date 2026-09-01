@@ -51,6 +51,7 @@ print-manager
 cups
 system-config-printer
 korganizer
+elisa
 
 # === Multimedia ===
 vlc
@@ -62,6 +63,8 @@ gstreamer1.0-plugins-ugly
 gstreamer1.0-libav
 libavcodec-extra
 unrar
+gwenview
+onlyoffice-desktopeditors
 
 # === Utilidades ===
 timeshift
@@ -93,7 +96,10 @@ firmware-realtek
 mesa-va-drivers
 mesa-vdpau-drivers
 nvidia-detect
-# nvidia-driver          # Descomenta solo si quieres preinstalar el driver NVIDIA
+intel-media-va-driver-non-free
+# nvidia-driver
+earlyoom
+fwupd
 
 # === Sistema ===
 plymouth
@@ -104,6 +110,7 @@ os-prober
 grub-efi-amd64
 shim-signed
 mokutil
+ca-certificates
 
 # === Instalador ===
 calamares
