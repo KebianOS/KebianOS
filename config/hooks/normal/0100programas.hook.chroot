@@ -7,3 +7,4 @@ flatpak install -y flathub com.github.tchx84.Flatseal
 systemctl mask tmp.mount
 systemctl enable fstrim.timer 
 apt remove konqueror firefox-esr -y
+curl -fsS https://dl.brave.com/install.sh | sh

@@ -1,1 +1,5 @@
 config/includes.chroot_before_packages/root/mscorefonts-cache/
+iso
+cache
+.build
+
