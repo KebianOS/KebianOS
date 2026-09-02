@@ -4,14 +4,31 @@ componentName:  kebianos
 strings:
     productName:         KebianOS
     shortProductName:    KebianOS
-    version:             1.0 Beta
-    shortVersion:        1.0 Beta
-    versionedName:       KebianOS 1.0 Beta
-    shortVersionedName:  KebianOS 1.0 Beta
+    version:             1.1 Beta
+    shortVersion:        1.1 Beta
+    versionedName:       KebianOS 1.1 Beta
+    shortVersionedName:  KebianOS 1.1 
     bootloaderEntryName: KebianOS
+    productUrl:          https://kebianos.github.io/
+    supportUrl:          https://kebianos.github.io/soporte.html
+    knownIssuesUrl:      https://github.com/KebianOS/KebianOS/issues
+    releaseNotesUrl:     https://kebianos.github.io/documentacion.html
+
+
+sidebar: widget
+navigation: widget
 
 images:
-    productLogo:         "logo.png"
-    productIcon:         "logo.png"
+    productLogo:         "kebianos-logo.png"
+    productIcon:         "kebianos-logo.png"
+    productWelcome:      "welcome.png"
 
-slideshowAPI:            2
+slideshow:               "show.qml"
+
+style:
+   SidebarBackground:    "#084cc78c"
+   SidebarText:          "#FFFFFF"
+   SidebarTextCurrent:   "#FFFFFF"
+   SidebarBackgroundCurrent: "#064cc78c"
+
+slideshowAPI: 2

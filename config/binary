@@ -28,7 +28,7 @@ LB_BOOTLOADER_EFI="grub-efi"
 LB_BOOTLOADERS="grub-efi syslinux"
 
 # Set checksums
-LB_CHECKSUMS="sha256"
+LB_CHECKSUMS="none"
 
 # Set compression
 LB_COMPRESSION="none"
