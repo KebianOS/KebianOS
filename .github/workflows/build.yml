@@ -25,8 +25,8 @@ jobs:
 
       - name: Dar permisos y compilar (modo rápido)
         run: |
-          chmod +x build-kebianos.sh
-          sudo ./build-kebianos.sh
+          chmod +x build-ejemplo.sh
+          sudo ./build-ejemplo.sh
 
       - name: Subir ISO como artifact
         uses: actions/upload-artifact@v4
