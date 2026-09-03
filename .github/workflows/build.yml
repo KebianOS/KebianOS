@@ -16,14 +16,14 @@ jobs:
 
       - name: Liberar espacio en disco
         run: |
-          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc
-          sudo apt-get clean
+          rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc
+          apt-get clean
           df -h /
 
       - name: Instalar live-build
         run: |
-          sudo apt-get update
-          sudo apt-get install -y live-build
+          apt-get update
+          apt-get install -y live-build
 
       - name: Dar permisos y compilar (modo rápido)
         run: |
