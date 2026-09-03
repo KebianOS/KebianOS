@@ -1,0 +1,35 @@
+name: Build KebianOS ISO
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Liberar espacio en disco
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc
+          sudo apt-get clean
+          df -h /
+
+      - name: Instalar live-build
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y live-build
+
+      - name: Dar permisos y compilar (modo rápido)
+        run: |
+          chmod +x build-kebianos.sh
+          sudo ./build-kebianos.sh
+
+      - name: Subir ISO como artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: kebianos-iso
+          path: "*.iso"
