@@ -1,8 +1,8 @@
 NAME="KebianOS"
-VERSION="KebianOS 1.1 Beta"
+VERSION="KebianOS 1.2 (Alpha)"
 ID=kebianos
 ID_LIKE=debian
-VERSION_ID="1.0"
+VERSION_ID="1.2"
 VERSION_CODENAME=kebianos
 PRETTY_NAME="KebianOS"
 HOME_URL="https://kebianos.github.io/"
