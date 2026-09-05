@@ -1,4 +1,4 @@
 #!/bin/bash
 lb clean
-lb config --distribution trixie --architectures amd64 --binary-images iso-hybrid --bootloaders "grub-efi syslinux" --archive-areas "main contrib non-free non-free-firmware" --iso-application "KebianOS" --iso-volume "KebianOS 1.2 Beta" --iso-publisher "KebianOS Team" --iso-preparer "KebianOS"
-lb build
+lb config --distribution trixie --architectures amd64 --binary-images iso-hybrid --bootloaders "grub-efi syslinux" --archive-areas "main contrib non-free non-free-firmware" --iso-application "KebianOS" --iso-volume "KebianOS 1.2 Alpha" --iso-publisher "KebianOS Team" --iso-preparer "KebianOS"
+lb build 2>&1 | tee build.log

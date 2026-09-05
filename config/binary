@@ -80,7 +80,7 @@ LB_ISO_PREPARER="KebianOS"
 LB_ISO_PUBLISHER="KebianOS Team"
 
 # Set iso volume (max 32 chars)
-LB_ISO_VOLUME="KebianOS 1.1 Beta"
+LB_ISO_VOLUME="KebianOS 1.2 Alpha"
 
 # Set jffs2 eraseblock size
 LB_JFFS2_ERASEBLOCK=""

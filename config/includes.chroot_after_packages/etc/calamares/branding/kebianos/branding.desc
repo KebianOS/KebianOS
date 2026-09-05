@@ -4,10 +4,10 @@ componentName:  kebianos
 strings:
     productName:         KebianOS
     shortProductName:    KebianOS
-    version:             1.1 Beta
-    shortVersion:        1.1 Beta
-    versionedName:       KebianOS 1.1 Beta
-    shortVersionedName:  KebianOS 1.1 
+    version:             1.2 Alhpa
+    shortVersion:        1.2
+    versionedName:       KebianOS 1.2 Alhpa
+    shortVersionedName:  KebianOS 1.2
     bootloaderEntryName: KebianOS
     productUrl:          https://kebianos.github.io/
     supportUrl:          https://kebianos.github.io/soporte.html
